@@ -1,0 +1,12 @@
+.main-div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.vertical-line {
+  border: 1px solid #000; /* Set the color of the line */
+  height: 100vh; /* Set the height of the line */
+  transform: rotate(180deg); /* Rotate the line to make it vertical */
+}
